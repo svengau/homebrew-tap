@@ -14,3 +14,26 @@ Homebrew Tap repository for:
     # or install directly 
     brew install svengau/tap/gogo
 ```
+
+## Other commands
+
+
+```
+    # Upgrade formula
+    brew upgrade svengau/tap/gogo
+
+    # Display tap info
+    brew tap-info svengau/tap
+```
+
+## Troubleshooting
+
+
+If any issue during installation / update, just reinstall the tap:
+
+```
+brew uninstall gogo
+brew untap svengau/tap
+brew tap svengau/tap
+brew install gogo
+```
